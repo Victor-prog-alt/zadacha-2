@@ -3,12 +3,13 @@ import pandas as pd
 st.title(" Любими неща класна анкета")
 # Инициализация на данните
 if "colors" not in st.session_state:
-st.session_state.colors = 
-"Червен": 0,
-"Син": 0,
-"Зелен": 0,
-"Жълт": 0
-
+    st.session_state.colors = {
+       "Червен": 0,
+       "Син": 0,
+       "Зелен": 0,
+       "Жълт": 0,
+    }
+    
 if "sports" not in st.session_state:
 st.session_state.sports = {
 "Футбол": 0,
