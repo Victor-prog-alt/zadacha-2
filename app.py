@@ -8,7 +8,7 @@ st.session_state.colors =
 "Син": 0,
 "Зелен": 0,
 "Жълт": 0
-}
+
 if "sports" not in st.session_state:
 st.session_state.sports = {
 "Футбол": 0,
